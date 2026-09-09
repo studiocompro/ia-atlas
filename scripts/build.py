@@ -8,6 +8,18 @@ ASSETS = ROOT / 'assets'
 ADSENSE_HEAD = '''<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8281021937433044"
      crossorigin="anonymous"></script>'''
 
+ADSENSE_PUBLISHER = 'ca-pub-8281021937433044'
+ADSENSE_SLOTS = {
+    'inline-1': '6626839246',
+    'mid-2': '7732037353',
+    'bottom': '7839848569',
+}
+ADSENSE_LABELS = {
+    'inline-1': 'Haut de page',
+    'mid-2': 'Milieu de page',
+    'bottom': 'Bas de page',
+}
+
 
 def load(name):
     return json.loads((DATA_DIR / name).read_text(encoding='utf-8'))
@@ -63,11 +75,17 @@ def nav(prefix='', active=''):
     )
 
 def ad_slot(slot='inline-1', kind='medium'):
-    return (f'<div class="ad-zone ad-{kind}" data-ia-atlas-ad-zone="{slot}">'
-            f'<div class="ad-slot" data-ad-slot="{slot}" data-ad-provider="adsense-pending">'
-            '<div class="ad-inner"><span class="ad-title">Espace partenaire</span>'
-            '<span class="ad-copy">Emplacement publicitaire visible — annonce AdSense en attente d’activation.</span>'
-            '</div></div></div>')
+    google_slot = ADSENSE_SLOTS[slot]
+    label = ADSENSE_LABELS[slot]
+    return (
+        f'<div class="ad-zone ad-{kind}" data-ia-atlas-ad-zone="{slot}">'
+        f'<div class="ad-slot adsense-unit" data-ad-slot="{google_slot}" data-ad-provider="adsense">'
+        f'<div class="ad-inner"><span class="ad-title">PUBLICITÉ • {label}</span>'
+        '<span class="ad-copy">Emplacement publicitaire AdSense — cette zone reste visible même si aucune annonce n’est encore diffusée.</span></div>'
+        f'<ins class="adsbygoogle" style="display:block;width:100%" data-ad-client="{ADSENSE_PUBLISHER}" '
+        f'data-ad-slot="{google_slot}" data-ad-format="auto" data-full-width-responsive="true"></ins>'
+        '</div></div><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>'
+    )
 
 def footer(prefix=''):
     return (
@@ -266,6 +284,43 @@ def patch_runtime_pages():
     path.write_text(s, encoding='utf-8')
 
 
+
+def write_search_files():
+    """Keep Search Console / AdSense support files in sync with the deployed Cloudflare Pages domain."""
+    import xml.sax.saxutils as xmlutils
+    base = 'https://ia-atlas.pages.dev/'
+    exclude = {'404.html', 'googleadd0c574641401b2.html', 'emplacements-publicitaires.html'}
+    urls = []
+    for path in sorted(ROOT.rglob('*.html')):
+        rel = path.relative_to(ROOT).as_posix()
+        if rel in exclude or rel.startswith('.github/'):
+            continue
+        if rel == 'index.html':
+            loc, priority = base, '1.0'
+        else:
+            loc = base + rel
+            if rel in {'catalogue.html','choisir.html','categories.html','local.html','modeles-locaux.html','tutoriels.html','forgotten-source.html','soutenir.html'}:
+                priority = '0.8'
+            elif rel.startswith(('ia/','categorie/','modeles/')):
+                priority = '0.7'
+            else:
+                priority = '0.5'
+        urls.append((loc, priority))
+    out = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for loc, priority in urls:
+        out += ['  <url>', f'    <loc>{xmlutils.escape(loc)}</loc>', '    <lastmod>2026-09-09</lastmod>', f'    <priority>{priority}</priority>', '  </url>']
+    out.append('</urlset>')
+    (ROOT / 'sitemap.xml').write_text('\n'.join(out) + '\n', encoding='utf-8')
+    (ROOT / 'robots.txt').write_text(
+        'User-agent: *\nAllow: /\nDisallow: /emplacements-publicitaires.html\n\nSitemap: https://ia-atlas.pages.dev/sitemap.xml\n',
+        encoding='utf-8'
+    )
+    (ROOT / 'ads.txt').write_text('google.com, pub-8281021937433044, DIRECT, f08c47fec0942fa0\n', encoding='utf-8')
+    (ROOT / 'googleadd0c574641401b2.html').write_text(
+        'google-site-verification: googleadd0c574641401b2.html\n', encoding='utf-8'
+    )
+
+
 def main():
     tools = merged_tools()
     tools_by_id = {t['id']: t for t in tools}
@@ -297,6 +352,8 @@ def main():
     for family in local_data['families']:
         models = [m for m in local_data['models'] if m['familyId'] == family['id']]
         (ROOT / family['page']).write_text(model_family_page(family, models), encoding='utf-8')
+
+    write_search_files()
 
     print(f'IA Atlas build OK: {len(tools)} outils, {len(local_data["models"])} modèles locaux, {len(load("gpu.json")["items"])} GPU')
 
