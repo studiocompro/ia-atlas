@@ -5,6 +5,9 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / 'data'
 ASSETS = ROOT / 'assets'
 
+ADSENSE_HEAD = '''<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8281021937433044"
+     crossorigin="anonymous"></script>'''
+
 
 def load(name):
     return json.loads((DATA_DIR / name).read_text(encoding='utf-8'))
@@ -61,9 +64,9 @@ def nav(prefix='', active=''):
 
 def ad_slot(slot='inline-1', kind='medium'):
     return (f'<div class="ad-zone ad-{kind}" data-ia-atlas-ad-zone="{slot}">'
-            f'<div class="ad-slot" data-ad-slot="{slot}" data-ad-provider="unconfigured">'
+            f'<div class="ad-slot" data-ad-slot="{slot}" data-ad-provider="adsense-pending">'
             '<div class="ad-inner"><span class="ad-title">Espace partenaire</span>'
-            '<span class="ad-copy">Publicité discrète — cet emplacement pourra financer IA Atlas sans bloquer la lecture.</span>'
+            '<span class="ad-copy">Emplacement publicitaire visible — annonce AdSense en attente d’activation.</span>'
             '</div></div></div>')
 
 def footer(prefix=''):
@@ -89,6 +92,7 @@ def shell(title, description, body, prefix='', active=''):
         '<meta name="viewport" content="width=device-width,initial-scale=1">'
         f'<title>{esc(title)}</title><meta name="description" content="{esc(description)}">'
         '<meta name="robots" content="index,follow">'
+        f'{ADSENSE_HEAD}'
         f'<style>{style}</style></head><body><div class="shell">{nav(prefix, active)}'
         f'<main class="container">{body}</main>{footer(prefix)}</div></body></html>'
     )
