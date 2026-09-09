@@ -1,2 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /emplacements-publicitaires.html
+
+Sitemap: https://ia-atlas.pages.dev/sitemap.xml
