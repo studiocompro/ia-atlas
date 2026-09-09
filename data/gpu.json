@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-09-07",
+  "source": "NVIDIA + estimations IA Atlas pour les usages",
+  "items": [
+    {
+      "id": "rtx-5090",
+      "name": "RTX 5090",
+      "vramGB": 32,
+      "architecture": "Blackwell"
+    },
+    {
+      "id": "rtx-5080",
+      "name": "RTX 5080",
+      "vramGB": 16,
+      "architecture": "Blackwell"
+    },
+    {
+      "id": "rtx-5070-ti",
+      "name": "RTX 5070 Ti",
+      "vramGB": 16,
+      "architecture": "Blackwell"
+    },
+    {
+      "id": "rtx-5070",
+      "name": "RTX 5070",
+      "vramGB": 12,
+      "architecture": "Blackwell"
+    },
+    {
+      "id": "rtx-5060-ti-16-go",
+      "name": "RTX 5060 Ti 16 Go",
+      "vramGB": 16,
+      "architecture": "Blackwell"
+    },
+    {
+      "id": "rtx-5060-ti-8-go",
+      "name": "RTX 5060 Ti 8 Go",
+      "vramGB": 8,
+      "architecture": "Blackwell"
+    },
+    {
+      "id": "rtx-5060",
+      "name": "RTX 5060",
+      "vramGB": 8,
+      "architecture": "Blackwell"
+    },
+    {
+      "id": "rtx-5050",
+      "name": "RTX 5050",
+      "vramGB": 8,
+      "architecture": "Blackwell"
+    },
+    {
+      "id": "rtx-4090",
+      "name": "RTX 4090",
+      "vramGB": 24,
+      "architecture": "Ada"
+    },
+    {
+      "id": "rtx-4080-4080-super",
+      "name": "RTX 4080 / 4080 Super",
+      "vramGB": 16,
+      "architecture": "Ada"
+    },
+    {
+      "id": "rtx-4070-ti-super",
+      "name": "RTX 4070 Ti Super",
+      "vramGB": 16,
+      "architecture": "Ada"
+    },
+    {
+      "id": "rtx-4070-4070-super",
+      "name": "RTX 4070 / 4070 Super",
+      "vramGB": 12,
+      "architecture": "Ada"
+    },
+    {
+      "id": "rtx-4060-ti-16-go",
+      "name": "RTX 4060 Ti 16 Go",
+      "vramGB": 16,
+      "architecture": "Ada"
+    },
+    {
+      "id": "rtx-4060-ti-8-go",
+      "name": "RTX 4060 Ti 8 Go",
+      "vramGB": 8,
+      "architecture": "Ada"
+    },
+    {
+      "id": "rtx-4060",
+      "name": "RTX 4060",
+      "vramGB": 8,
+      "architecture": "Ada"
+    },
+    {
+      "id": "rtx-3090-3090-ti",
+      "name": "RTX 3090 / 3090 Ti",
+      "vramGB": 24,
+      "architecture": "Ampere"
+    },
+    {
+      "id": "rtx-3080-12-go",
+      "name": "RTX 3080 12 Go",
+      "vramGB": 12,
+      "architecture": "Ampere"
+    },
+    {
+      "id": "rtx-3080-10-go",
+      "name": "RTX 3080 10 Go",
+      "vramGB": 10,
+      "architecture": "Ampere"
+    },
+    {
+      "id": "rtx-3070",
+      "name": "RTX 3070",
+      "vramGB": 8,
+      "architecture": "Ampere"
+    },
+    {
+      "id": "rtx-3060",
+      "name": "RTX 3060",
+      "vramGB": 12,
+      "architecture": "Ampere"
+    }
+  ]
+}

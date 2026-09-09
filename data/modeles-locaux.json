@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-09-07",
+  "estimationNote": "La VRAM Q4 est une estimation pratique. Le contexte, le moteur et l’offloading modifient la mémoire réelle.",
+  "families": [
+    {
+      "id": "llama",
+      "name": "Llama",
+      "company": "Meta",
+      "description": "Famille ouverte Meta, avec petites variantes locales et modèles beaucoup plus lourds.",
+      "officialUrl": "https://www.llama.com/",
+      "page": "modeles/llama.html"
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "company": "Alibaba",
+      "description": "Famille de modèles généralistes et code, avec plusieurs tailles adaptées au local.",
+      "officialUrl": "https://qwenlm.github.io/",
+      "page": "modeles/qwen.html"
+    },
+    {
+      "id": "gemma",
+      "name": "Gemma",
+      "company": "Google",
+      "description": "Famille de modèles ouverts Google conçus pour différents environnements.",
+      "officialUrl": "https://ai.google.dev/gemma",
+      "page": "modeles/gemma.html"
+    },
+    {
+      "id": "deepseek-r1-distill",
+      "name": "DeepSeek R1 Distill",
+      "company": "DeepSeek",
+      "description": "Variantes distillées orientées raisonnement, disponibles dans plusieurs tailles.",
+      "officialUrl": "https://github.com/deepseek-ai/DeepSeek-R1",
+      "page": "modeles/deepseek-r1-distill.html"
+    },
+    {
+      "id": "mistral-7b",
+      "name": "Mistral 7B",
+      "company": "Mistral AI",
+      "description": "Modèle compact de Mistral, utile pour comprendre le fonctionnement d’un LLM local léger.",
+      "officialUrl": "https://mistral.ai/",
+      "page": "modeles/mistral-7b.html"
+    }
+  ],
+  "models": [
+    {
+      "id": "llama-3-2-3b",
+      "name": "Llama 3.2 3B",
+      "familyId": "llama",
+      "parametersB": 3,
+      "q4VramEstimateGB": 2.5,
+      "notes": "Petit modèle pour commencer."
+    },
+    {
+      "id": "llama-3-1-8b",
+      "name": "Llama 3.1 8B",
+      "familyId": "llama",
+      "parametersB": 8,
+      "q4VramEstimateGB": 5.5,
+      "notes": "Très accessible en Q4."
+    },
+    {
+      "id": "llama-3-3-70b",
+      "name": "Llama 3.3 70B",
+      "familyId": "llama",
+      "parametersB": 70,
+      "q4VramEstimateGB": 42,
+      "notes": "Très lourd en local."
+    },
+    {
+      "id": "qwen3-4b",
+      "name": "Qwen3 4B",
+      "familyId": "qwen",
+      "parametersB": 4,
+      "q4VramEstimateGB": 3,
+      "notes": "Bon point d’entrée."
+    },
+    {
+      "id": "qwen3-8b",
+      "name": "Qwen3 8B",
+      "familyId": "qwen",
+      "parametersB": 8,
+      "q4VramEstimateGB": 5.5,
+      "notes": "Bon compromis local."
+    },
+    {
+      "id": "qwen3-14b",
+      "name": "Qwen3 14B",
+      "familyId": "qwen",
+      "parametersB": 14,
+      "q4VramEstimateGB": 9,
+      "notes": "Plus exigeant mais intéressant dès 12–16 Go."
+    },
+    {
+      "id": "qwen3-32b",
+      "name": "Qwen3 32B",
+      "familyId": "qwen",
+      "parametersB": 32,
+      "q4VramEstimateGB": 20,
+      "notes": "Vise plutôt 24 Go+ pour être confortable."
+    },
+    {
+      "id": "gemma-3-4b",
+      "name": "Gemma 3 4B",
+      "familyId": "gemma",
+      "parametersB": 4,
+      "q4VramEstimateGB": 3.5,
+      "notes": "Compact."
+    },
+    {
+      "id": "gemma-4-12b",
+      "name": "Gemma 4 12B",
+      "familyId": "gemma",
+      "parametersB": 12,
+      "q4VramEstimateGB": 8,
+      "notes": "Milieu de gamme local."
+    },
+    {
+      "id": "gemma-4-31b",
+      "name": "Gemma 4 31B",
+      "familyId": "gemma",
+      "parametersB": 31,
+      "q4VramEstimateGB": 20,
+      "notes": "Gros modèle local."
+    },
+    {
+      "id": "r1-distill-7b",
+      "name": "R1 Distill 7B",
+      "familyId": "deepseek-r1-distill",
+      "parametersB": 7,
+      "q4VramEstimateGB": 5,
+      "notes": "Raisonnement léger."
+    },
+    {
+      "id": "r1-distill-14b",
+      "name": "R1 Distill 14B",
+      "familyId": "deepseek-r1-distill",
+      "parametersB": 14,
+      "q4VramEstimateGB": 9,
+      "notes": "Bon compromis."
+    },
+    {
+      "id": "r1-distill-32b",
+      "name": "R1 Distill 32B",
+      "familyId": "deepseek-r1-distill",
+      "parametersB": 32,
+      "q4VramEstimateGB": 20,
+      "notes": "Plutôt 24 Go+."
+    },
+    {
+      "id": "r1-distill-70b",
+      "name": "R1 Distill 70B",
+      "familyId": "deepseek-r1-distill",
+      "parametersB": 70,
+      "q4VramEstimateGB": 42,
+      "notes": "Très lourd."
+    },
+    {
+      "id": "mistral-7b",
+      "name": "Mistral 7B",
+      "familyId": "mistral-7b",
+      "parametersB": 7,
+      "q4VramEstimateGB": 5,
+      "notes": "Compact et pédagogique."
+    }
+  ]
+}

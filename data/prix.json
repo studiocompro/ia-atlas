@@ -1,0 +1,1092 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-09-07",
+  "currencyNote": "Les prix peuvent varier selon pays, taxes et promotions.",
+  "items": {
+    "chatgpt": {
+      "price": "Gratuit • Plus • Pro",
+      "priceNote": "Prix variables selon formule et pays.",
+      "verified": "7 septembre 2026",
+      "status": "official-link",
+      "sourceUrl": "https://chatgpt.com/"
+    },
+    "claude": {
+      "price": "Gratuit • Pro • Max",
+      "priceNote": "Prix variables selon formule et pays.",
+      "verified": "7 septembre 2026",
+      "status": "official-link",
+      "sourceUrl": "https://claude.ai/"
+    },
+    "gemini": {
+      "price": "Gratuit • AI Pro • AI Ultra",
+      "priceNote": "Tarifs et disponibilité selon pays.",
+      "verified": "7 septembre 2026",
+      "status": "official-link",
+      "sourceUrl": "https://gemini.google.com/"
+    },
+    "grok": {
+      "price": "Gratuit • SuperGrok",
+      "priceNote": "Tarifs et fonctions variables selon l’offre.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "le-chat": {
+      "price": "Gratuit • Pro • Team",
+      "priceNote": "Tarifs variables selon l’offre.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "microsoft-copilot": {
+      "price": "Gratuit • Pro",
+      "priceNote": "Tarifs variables selon l’offre.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "meta-ai": {
+      "price": "Gratuit",
+      "priceNote": "Disponibilité variable selon pays.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "poe": {
+      "price": "Freemium",
+      "priceNote": "Les quotas dépendent du plan.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "pi": {
+      "price": "Gratuit / variable",
+      "priceNote": "Offres susceptibles d’évoluer.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "character-ai": {
+      "price": "Freemium",
+      "priceNote": "Fonctions avancées selon plan.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "huggingchat": {
+      "price": "Gratuit",
+      "priceNote": "Les modèles disponibles peuvent changer.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "deepseek-chat": {
+      "price": "Freemium",
+      "priceNote": "Tarifs et accès selon le service.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "qwen-chat": {
+      "price": "Freemium",
+      "priceNote": "Disponibilité variable selon région.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "kimi": {
+      "price": "Freemium",
+      "priceNote": "Offres susceptibles d’évoluer.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "you-com": {
+      "price": "Freemium",
+      "priceNote": "Fonctions avancées selon formule.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "perplexity": {
+      "price": "Freemium",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "official-link",
+      "sourceUrl": "https://www.perplexity.ai/"
+    },
+    "notebooklm": {
+      "price": "Freemium",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "phind": {
+      "price": "Freemium",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "kagi-assistant": {
+      "price": "Freemium",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "elicit": {
+      "price": "Freemium",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "consensus": {
+      "price": "Freemium",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "scite-assistant": {
+      "price": "Freemium",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "genspark": {
+      "price": "Freemium",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "felo": {
+      "price": "Freemium",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "research-rabbit": {
+      "price": "Freemium",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "connected-papers": {
+      "price": "Freemium",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "explainpaper": {
+      "price": "Freemium",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "github-copilot": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "cursor": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "official-link",
+      "sourceUrl": "https://www.cursor.com/"
+    },
+    "windsurf": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "codeium": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "tabnine": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "qodo": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "sourcegraph-cody": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "replit-ai": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "v0": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "bolt-new": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "lovable": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "aider": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "continue": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "cline": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "amazon-q-developer": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "jetbrains-ai-assistant": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "blackbox-ai": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "pieces-for-developers": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "tabbyml": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "openhands": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "midjourney": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "official-link",
+      "sourceUrl": "https://www.midjourney.com/"
+    },
+    "ideogram": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "leonardo-ai": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "adobe-firefly": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "canva-magic-media": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "playground-ai": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "nightcafe": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "dreamstudio": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "recraft": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "flux-pro": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "flux-schnell": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "seaart": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "mage-space": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "krea": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "picsart-ai": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "microsoft-designer": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "imagen": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "clipdrop": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "artbreeder": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "scenario": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "getimg-ai": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "tensor-art": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "civitai-generator": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "openart": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "runway": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "pika": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "kling": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "luma-dream-machine": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "hailuo-ai": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "heygen": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "synthesia": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "sora": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "veo": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "invideo-ai": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "captions": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "fliki": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "colossyan": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "d-id": {
+      "price": "Freemium / crédits",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "suno": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "udio": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "elevenlabs": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "descript": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "murf": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "speechify": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "whisper": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "whisper-cpp": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "riffusion": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "voicemod": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "cleanvoice": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "auphonic": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "assemblyai": {
+      "price": "Freemium / abonnement",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "ollama": {
+      "price": "Gratuit / open source / self-host",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "official-link",
+      "sourceUrl": "https://ollama.com/"
+    },
+    "lm-studio": {
+      "price": "Gratuit / open source / self-host",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "official-link",
+      "sourceUrl": "https://lmstudio.ai/"
+    },
+    "open-webui": {
+      "price": "Gratuit / open source / self-host",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "jan": {
+      "price": "Gratuit / open source / self-host",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "gpt4all": {
+      "price": "Gratuit / open source / self-host",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "text-generation-webui": {
+      "price": "Gratuit / open source / self-host",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "koboldcpp": {
+      "price": "Gratuit / open source / self-host",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "anythingllm": {
+      "price": "Gratuit / open source / self-host",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "localai": {
+      "price": "Gratuit / open source / self-host",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "privategpt": {
+      "price": "Gratuit / open source / self-host",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "open-interpreter": {
+      "price": "Gratuit / open source / self-host",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "chatrtx": {
+      "price": "Gratuit / open source / self-host",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "msty": {
+      "price": "Gratuit / open source / self-host",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "sillytavern": {
+      "price": "Gratuit / open source / self-host",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "librechat": {
+      "price": "Gratuit / open source / self-host",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "comfyui": {
+      "price": "Gratuit / open source",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "official-link",
+      "sourceUrl": "https://www.comfy.org/"
+    },
+    "automatic1111": {
+      "price": "Gratuit / open source",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "fooocus": {
+      "price": "Gratuit / open source",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "invokeai": {
+      "price": "Gratuit / open source",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "swarmui": {
+      "price": "Gratuit / open source",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "stability-matrix": {
+      "price": "Gratuit / open source",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "draw-things": {
+      "price": "Gratuit / open source",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "diffusionbee": {
+      "price": "Gratuit / open source",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "forge-webui": {
+      "price": "Gratuit / open source",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "nmkd-gui": {
+      "price": "Gratuit / open source",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "langchain": {
+      "price": "Freemium / self-host / variable",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "llamaindex": {
+      "price": "Freemium / self-host / variable",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "dify": {
+      "price": "Freemium / self-host / variable",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "flowise": {
+      "price": "Freemium / self-host / variable",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "n8n-ai": {
+      "price": "Freemium / self-host / variable",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "autogen": {
+      "price": "Freemium / self-host / variable",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "crewai": {
+      "price": "Freemium / self-host / variable",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "haystack": {
+      "price": "Freemium / self-host / variable",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "langflow": {
+      "price": "Freemium / self-host / variable",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "taskingai": {
+      "price": "Freemium / self-host / variable",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "dust": {
+      "price": "Freemium / self-host / variable",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "mem0": {
+      "price": "Freemium / self-host / variable",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "litellm": {
+      "price": "Freemium / self-host / variable",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "superagi": {
+      "price": "Freemium / self-host / variable",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "rivet": {
+      "price": "Freemium / self-host / variable",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "rasa": {
+      "price": "Freemium / self-host / variable",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "botpress": {
+      "price": "Freemium / self-host / variable",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "zapier-ai": {
+      "price": "Freemium / self-host / variable",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "notion-ai": {
+      "price": "Abonnement / selon suite",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "canva-ai": {
+      "price": "Abonnement / selon suite",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "grammarly": {
+      "price": "Abonnement / selon suite",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "deepl-write": {
+      "price": "Abonnement / selon suite",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "otter-ai": {
+      "price": "Abonnement / selon suite",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "mem": {
+      "price": "Abonnement / selon suite",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "clickup-ai": {
+      "price": "Abonnement / selon suite",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "zoom-ai-companion": {
+      "price": "Abonnement / selon suite",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "slack-ai": {
+      "price": "Abonnement / selon suite",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "airtable-ai": {
+      "price": "Abonnement / selon suite",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "coda-ai": {
+      "price": "Abonnement / selon suite",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "asana-ai": {
+      "price": "Abonnement / selon suite",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "duet-ai-for-workspace": {
+      "price": "Abonnement / selon suite",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    },
+    "acrobat-ai-assistant": {
+      "price": "Abonnement / selon suite",
+      "priceNote": "Consultez le site officiel pour les détails exacts des offres.",
+      "verified": "7 septembre 2026",
+      "status": "to-verify",
+      "sourceUrl": ""
+    }
+  }
+}
