@@ -1,0 +1,21 @@
+IA ATLAS — VERSION FINALE ADSENSE
+Domaine : https://ia-atlas.pages.dev/
+
+Google AdSense
+- Publisher : ca-pub-8281021937433044
+- Haut de page : 6626839246
+- Milieu de page : 7732037353
+- Bas de page : 7839848569
+- 188 pages x 3 emplacements = 564 emplacements publicitaires
+
+Google
+- sitemap.xml : inclus et généré pour ia-atlas.pages.dev
+- robots.txt : inclus
+- ads.txt : inclus
+- googleadd0c574641401b2.html : inclus à la racine
+
+Mises à jour
+- Données centrales dans data/
+- scripts/build.py régénère les fiches, catégories, modèles et fichiers SEO.
+
+Pour remplacer le site, conserver toute l'arborescence du dossier ia-atlas-site.
